@@ -4,10 +4,6 @@ import java.util.Random;
 import java.util.UUID;
 
 public class SimulationDriver {
-
-    /**
-     *
-     * **/
     private void simulatingStudentAnswers(VotingService v, Question q, ArrayList<Student> classroom, int n){
         System.out.println("SIMULATING STUDENTS ANSWERING...");
         Random rand = new Random();
